@@ -28,7 +28,8 @@ const chords = {
     majorSeventh: [ 4, 3, 3 ],
     minorSeventh: [ 3, 4, 3 ],
     sus2:         [ 2, 5 ],
-    sus4:         [ 5, 2 ],    
+    sus4:         [ 5, 2 ],
+    powerchord:   [ 7 ],    
 }
 
 export { 
