@@ -5,19 +5,20 @@ const scales = {
 
 const modes = {
     major:            [ 2, 2, 1, 2, 2, 2 ], // ionian
+    majorPentatonic:  [ 2, 2, 3, 2 ], 
     minor:            [ 2, 1, 2, 2, 1, 2 ], // aeolian
+    minorHarmonic:    [ 2, 1, 2, 2, 1, 3 ],
+    minorMelodic:     [ 2, 1, 2, 2, 2, 2 ],
+    minorPentatonic:  [ 3, 2, 2, 3 ], 
     ionian:           [ 2, 2, 1, 2, 2, 2 ],
     dorian:           [ 2, 1, 2, 2, 2, 1 ],
     phrygian:         [ 1, 2, 2, 2, 1, 2 ],
+    phrygianDominant: [ 1, 3, 1, 2, 1, 2 ],    
     lydian:           [ 2, 2, 2, 1, 2, 2 ],
     mixolydian:       [ 2, 2, 1, 2, 2, 1 ],
     aeolian:          [ 2, 1, 2, 2, 1, 2 ],
     locrian:          [ 1, 2, 2, 1, 2, 2 ],
-    majorPentatonic:  [ 2, 2, 3, 2 ], 
-    minorPentatonic:  [ 3, 2, 2, 3 ], 
     bluesHexatonic:   [ 3, 2, 1, 1, 3 ], 
-    minorHarmonic:    [ 2, 1, 2, 2, 1, 3 ],
-    phrygianDominant: [ 1, 3, 1, 2, 1, 2 ],    
 }
 
 const chords = {

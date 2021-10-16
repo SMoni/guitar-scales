@@ -7,9 +7,9 @@ Little tool to help finding the notes on a guitar fret based on the chromatic sc
 * major
 * majorPentatonic
 * minor
-* minorPentatonic
 * minorHarmonic
-* bluesHexatonic
+* minorMelodic
+* minorPentatonic
 * ionian
 * dorian
 * phrygian
@@ -18,6 +18,7 @@ Little tool to help finding the notes on a guitar fret based on the chromatic sc
 * mixolydian
 * aeolian
 * locrian
+* bluesHexatonic
 
 ## Supported Chords
 
