@@ -22,15 +22,16 @@ const modes = {
 }
 
 const chords = {
-    major:        [ 4, 3 ],
-    minor:        [ 3, 4 ],
-    augmented:    [ 4, 4 ],
-    diminished:   [ 3, 3 ],
-    majorSeventh: [ 4, 3, 3 ],
-    minorSeventh: [ 3, 4, 3 ],
-    sus2:         [ 2, 5 ],
-    sus4:         [ 5, 2 ],
-    powerchord:   [ 7 ],    
+    major:           [ 4, 3 ],
+    minor:           [ 3, 4 ],
+    augmented:       [ 4, 4 ],
+    diminished:      [ 3, 3 ],
+    dominantSeventh: [ 4, 3, 3 ],
+    majorSeventh:    [ 4, 3, 4 ],    
+    minorSeventh:    [ 3, 4, 3 ],
+    sus2:            [ 2, 5 ],
+    sus4:            [ 5, 2 ],
+    powerchord:      [ 7 ],    
 }
 
 export { 
