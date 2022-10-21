@@ -4,6 +4,7 @@ const scales = {
 }
 
 const modes = {
+    // circle:           [ 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 ],
     major:            [ 2, 2, 1, 2, 2, 2 ], // ionian
     majorPentatonic:  [ 2, 2, 3, 2 ], 
     minor:            [ 2, 1, 2, 2, 1, 2 ], // aeolian
@@ -26,11 +27,13 @@ const chords = {
     minor:           [ 3, 4 ],
     augmented:       [ 4, 4 ],
     diminished:      [ 3, 3 ],
+    sixth:           [ 4, 3, 2 ],
     dominantSeventh: [ 4, 3, 3 ],
     majorSeventh:    [ 4, 3, 4 ],    
     minorSeventh:    [ 3, 4, 3 ],
     sus2:            [ 2, 5 ],
     sus4:            [ 5, 2 ],
+    add9:            [ 4, 3, 7 ],    
     powerchord:      [ 7 ],    
 }
 

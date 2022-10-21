@@ -10,6 +10,9 @@
       <select name="types" @change="onChangeType($event)">
         <option v-for="(type, index) in availableTypes" :key="index" :value="type">{{ type }}</option>
       </select>    
+      <!-- <div class="enharmonic">
+        as flat (♭) || sharp (♯)
+      </div> -->
     </div>
 
     <div class="notes">
@@ -126,8 +129,9 @@ export default {
     return {
       tonescale: createToneScaleOf(scales.chromatic),
       current: {
-        base: 'C',
-        mode: modes.major
+        base:       'C',
+        mode:       modes.major,
+        enharmonic: 'sharp'
       },
       frets: _.keys(new Array(21)),
       markings: {

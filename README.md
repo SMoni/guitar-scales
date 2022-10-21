@@ -26,11 +26,13 @@ Little tool to help finding the notes on a guitar fret based on the chromatic sc
 * minor
 * augmented
 * diminished
+* sixth
 * dominantSeventh
 * majorSeventh
 * minorSeventh
 * sus2
 * sus4  
+* add9
 * powerchord
 
 ## Tool/Demo
