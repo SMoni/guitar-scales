@@ -31,6 +31,7 @@ const chords = {
     dominantSeventh: [ 4, 3, 3 ],
     majorSeventh:    [ 4, 3, 4 ],    
     minorSeventh:    [ 3, 4, 3 ],
+    minorNinth:      [ 3, 4, 3, 4 ],
     sus2:            [ 2, 5 ],
     sus4:            [ 5, 2 ],
     add9:            [ 4, 3, 7 ],    
