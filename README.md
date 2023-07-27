@@ -30,6 +30,7 @@ Little tool to help finding the notes on a guitar fret based on the chromatic sc
 * dominantSeventh
 * majorSeventh
 * minorSeventh
+* minorNinth
 * sus2
 * sus4  
 * add9
