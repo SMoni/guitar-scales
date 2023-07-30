@@ -23,17 +23,18 @@ Little tool to help finding the notes on a guitar fret based on the chromatic sc
 ## Supported Chords
 
 * major
-* minor
-* augmented
-* diminished
 * sixth
 * dominantSeventh
 * majorSeventh
+* add9
+* minor
 * minorSeventh
 * minorNinth
+* minorEleventh
+* augmented
+* diminished
 * sus2
 * sus4  
-* add9
 * powerchord
 
 ## Tool/Demo
