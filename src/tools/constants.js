@@ -24,17 +24,18 @@ const modes = {
 
 const chords = {
     major:           [ 4, 3 ],
-    minor:           [ 3, 4 ],
-    augmented:       [ 4, 4 ],
-    diminished:      [ 3, 3 ],
     sixth:           [ 4, 3, 2 ],
     dominantSeventh: [ 4, 3, 3 ],
     majorSeventh:    [ 4, 3, 4 ],    
+    add9:            [ 4, 3, 7 ],    
+    minor:           [ 3, 4 ],
     minorSeventh:    [ 3, 4, 3 ],
     minorNinth:      [ 3, 4, 3, 4 ],
+    minorEleventh:   [ 3, 4, 3, 4, 3 ],
+    augmented:       [ 4, 4 ],
+    diminished:      [ 3, 3 ],
     sus2:            [ 2, 5 ],
     sus4:            [ 5, 2 ],
-    add9:            [ 4, 3, 7 ],    
     powerchord:      [ 7 ],    
 }
 
